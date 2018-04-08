@@ -1,6 +1,6 @@
 import json
 import pygal
-
+""" intro """
 json_file = open('/Users/MEHRA/Documents/Notebooks/Takeout/Location History/Location History.json')
 gdic_zero = json.load(json_file)
 json_file.close()
