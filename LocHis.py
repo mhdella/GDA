@@ -12,7 +12,7 @@ for rec in gdic_one:
         loc = (rec['longitudeE7'],rec['latitudeE7'])
         coords.append(loc)
     i += 1
-print(coords)
+print(type(coords[0][0]))
 xy_chart = pygal.XY(stroke=False)
 xy_chart.title = 'Correlation'
 xy_chart.add('A', coords)
